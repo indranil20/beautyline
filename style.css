@@ -1,0 +1,402 @@
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: black;
+    margin: 10px 50px;
+    position: inherit;
+    z-index: 1;
+}
+.title{
+    font-family: 'Handlee', cursive;
+    letter-spacing: 5px;
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.nav{
+    margin-top: 25px;
+}
+.opt{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 30px;
+    font-family: 'Noto Sans Coptic', sans-serif;
+    letter-spacing: 2px;
+    padding: 0 5px;
+}
+.opt:hover{
+    padding: 0 5px;
+    box-shadow: 0 0 10px rgb(151, 151, 151);
+    border: 1px solid rgb(151, 151, 151);
+    transition-duration: 0.5s;
+}
+.log{
+    border: 0;
+    width: 150px;
+    font-size: 16px;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    background-color: white;
+}
+.log:hover{
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.bi{
+    padding-right: 5px;
+}
+.ti-img{
+    margin-left: 40px;
+    display: flex;
+}
+.banner{
+    background-color: rgb(215 242 255);
+    padding-top: 1px;
+    height: 709px;
+    background-attachment: fixed;
+    position: relative;
+}
+.ban-top{
+    display: flex;
+    align-items: end;
+    position: inherit;
+    z-index: 1;
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+}
+.folo{
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 8px;
+}
+.icon{
+    padding-right: 13px;
+}
+.icon:hover{
+    font-size: 20px;    
+}
+.ban-img {
+    position: absolute;
+    top: -167px;
+    right: -250px;
+    width: 1300px;
+}
+.main{
+    width: fit-content;
+    margin-left: 150px;
+    margin-top: 170px;
+}
+.name{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 0;
+    font-weight: bold;
+    width: fit-content;
+    border-bottom: 1px solid black;
+    padding: 0 5px;
+}
+.post{
+    font-size: 50px;
+    font-family: 'Nunito Sans', sans-serif;    
+    font-weight: lighter;  
+    margin-top: 0; 
+    margin-bottom: 20px;
+}
+.detail{
+    width: 450px;
+    font-family: 'Just Another Hand', cursive;
+    letter-spacing: 2px;
+    font-size: 22px;
+}
+.btn{
+    font-size: 18px;
+    letter-spacing: 1px;
+    background-color: transparent;
+    font-family: 'Bebas Neue', sans-serif;
+    border: 1px solid black;
+    margin-top: 20px;
+    cursor: grab;
+}
+.btn:hover{
+    padding: 10px 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid black;
+    box-shadow: 5px 10px 8px;
+    transition-duration: 0.5s;
+}
+.about{
+    background-color: #f9bbbb;
+    padding-top: 1px;
+    padding-bottom: 50px;
+    border-top: 1px solid rgb(180, 180, 180);
+}
+.abt{
+    font-family: 'Nunito Sans', sans-serif;    
+    font-weight: lighter;
+    margin-left: 90px;
+    margin-top: 50px;
+    width: fit-content;
+    border-bottom: 1px solid black;
+}
+.text{
+    width: 855px;
+    margin-left: 60px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.c-text{
+    font-family: 'Handlee', cursive;
+    letter-spacing: 1px;
+}
+.card{
+    text-align: center;
+    width: 300px;
+    padding: 10px 0;
+    border-radius: 20px;
+}
+.card:hover{
+    box-shadow: 0 0 10px ;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+.card-holder{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffe2c75c;
+    padding: 80px 0;
+}
+.font-nor{
+    font-weight: normal;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.d-text{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.disc-per{
+    font-weight: normal;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    width: fit-content;
+}
+.disc{
+    font-weight: normal;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    width: fit-content;
+}
+.disc-main{
+    padding: 20px 150px;
+    background: linear-gradient(to right, #ffffff 0%, #cc6699 100%);
+}
+.disc-btn{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    float: right;
+    padding: 5px 10px;
+    margin-top: -45px;
+    background-color: whitesmoke;
+    cursor: grab;
+}
+.disc-btn:hover{
+    padding: 5px 15px;
+    margin-right: 10px;
+    box-shadow: 5px 5px 8px;
+    transition-duration: 0.5s;
+}
+.price-sec{
+    background-color: #fafafa;
+    padding: 70px 100px;
+}
+.price{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.p-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.p-note{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.price-chart{
+    text-align: center;
+    width: 270px;
+    border: 1px solid rgb(214, 214, 214);
+    background-color: white;
+}
+.price-chart:hover{
+    border: 1px solid black;
+}
+.price-chart-box{
+    display: flex;
+    justify-content: space-evenly;
+}
+.type{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+.p-text{
+    background-color: whitesmoke;
+    margin: 2px 0;
+    padding: 15px 0;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+}
+.other{
+    background-color: white;
+}
+.rate{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    margin-bottom: 30px;
+}
+.pri-btn{
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 30px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    padding: 10px 20px;
+    cursor: grab;
+}
+.pri-btn:hover{
+    box-shadow: 0 0 10px;
+    transition-duration: 0.5s;
+}
+.blog-sec{
+    padding: 70px 100px;
+}
+.blog{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.b-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+.b-note{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.blog-main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.blog-card{
+    width: 350px;
+    cursor: pointer;
+}
+.blog-title{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: lighter;
+}
+.blog-text{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.blog-date{
+    font-family: 'Noto Sans Coptic', sans-serif;
+}
+.contact-form{
+    width: 500px;
+    padding-left: 10px;
+}
+.form-head{
+    font-family: 'Noto Sans Coptic', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+.area{
+    width: 190px;
+    padding: 15px 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    background-color: rgb(242 255 250);
+    margin-top: 10px;
+}
+.area2{
+    width: 425px;
+    padding: 15px 20px;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    background-color: rgb(242 255 250);
+    margin-top: 10px;
+}
+.add{
+    width: 250px;
+}
+.phone{
+    width: 250px;
+}
+.open{
+    width: 250px;
+}
+.add-main{
+    text-align: center;
+    width: fit-content;
+    background-color: rgb(204 255 235);
+    padding: 30px 20px;
+}
+.con-sec{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(228 255 245);
+    padding: 50px 0;
+}
+.form-btn{
+    padding: 5px 10px;
+    font-size: 16px;
+    margin-top: 30px;
+    background-color: rgb(242 255 250);
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 2px;
+    border: 1px solid black;
+    cursor: grab;
+}
+.form-btn:hover{
+    padding: 5px 12px;
+    letter-spacing: 3px;
+    margin-left: 7px;
+    box-shadow: -5px 5px 5px;
+    transition-duration: 0.5s;
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #1a1a1ae8;
+}
+.page{
+    width: 600px;
+    color: white;
+}
+.foot{
+    text-align: center;
+    background-color: #1a1a1ae8;
+    color: white;
+    padding: 1px;
+}
+/* font-family: 'Just Another Hand', cursive; */
+    /* font-family: 'Noto Sans Coptic', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    /* font-family: 'Bebas Neue', sans-serif; */
